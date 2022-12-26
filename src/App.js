@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import NavBar from './components/NavBar/navbar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+// import Boton from './components/Boton';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <NavBar  producto="guitarra" />
+      <ItemListContainer greeting="¡Bienvenidos a nuestro e commerce!"/>
+      {/* <Boton boton="comprar"/> */}
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +22,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

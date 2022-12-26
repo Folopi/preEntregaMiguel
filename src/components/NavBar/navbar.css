@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    background-color: #eee;
+    height: 70px;
+
+}
+.title-menu{
+    margin-right: 15px;
+}
+
+
+.boton{
+    margin: 7px 2.5px;
+    border-radius: 15%;
+}
+
