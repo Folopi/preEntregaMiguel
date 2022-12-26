@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <NavBar  producto="guitarra" />
-      <ItemListContainer greeting="¡Bienvenidos a nuestro e commerce!"/>
+      <ItemListContainer greeting="¡Bienvenidos a nuestro e commerce de instrumentos muscicales!"/>
       {/* <Boton boton="comprar"/> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
