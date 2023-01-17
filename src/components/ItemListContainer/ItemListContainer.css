@@ -1,0 +1,10 @@
+.ItemListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .ItemListContainer img{
+    width: 1600px !important;
+    height: 1600px !important;
+} */

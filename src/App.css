@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+ */
+
+ .flexContain{
+  display: flex;
+  flex-wrap: wrap;
+  
+  background-color: #0c5;
+  justify-content: space-evenly;
+ }
+ .flexContain__div{
+  background-color: #fc0;
+margin: 15px;
+  width: 300px;
+}
+ .flexContain h3{
+  font-size: 15px;
+ }
+ .flexContain img{
+  /* margin-left: 70px; */
+  width: 100%;
+  height: 100%;
+ }
+ .flexContain p{
+  color: #0c5;
+ }
+
+.imgs, .vamos{
+  display: inline-block
+}
+.imgs{
+  width: 17 0px;
+  height: 150px;
 }
