@@ -1,6 +1,6 @@
 .CardItemDetail {
     display: inline-block;
-    width: 400px;
+    width: 500px;
     padding: 30px;
     margin: 30px;
     background-color: #8C30F5;
@@ -17,6 +17,7 @@
 .ItemHeader {
     display: flex;
     justify-content: center;
+    font-size: 25px;
 }
 
 .Info {
@@ -47,10 +48,14 @@
     
 }
 
-.ItemImg {
+.ItemImg-detail {
     width: 200px;
     height: 200px;
     object-fit: cover;
     object-position: center;
-    margin-left: 70px;
+    margin-left: 110px !important;
+}
+
+.Info-detail{
+    color: #fff;
 }

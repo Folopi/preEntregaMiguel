@@ -1,7 +1,9 @@
 import './Item.css'
 import { Link } from 'react-router-dom'
 
-const Item = ({id, name, img, price}) => {
+
+const Item = ({id, name, img, price, stock}) => {
+{/*desectruturamos el array de productos recibido por parametros */}
     return (
         <article className="CardItem">
             <header className="Header">
@@ -10,12 +12,12 @@ const Item = ({id, name, img, price}) => {
                 </h2>
             </header>
             <picture>
-                <img src={img} alt={name} className="ItemImg"/>
+                <img src={img} alt={name} className="ItemImg" />
             </picture>
             <section>
-                <p className="Info">
-                    Precio: ${price}
-                </p>
+                <p className="Info">Precio: ${price}</p>
+                <p className="Info">stock: {stock}</p>
+                
             </section>           
             <footer className='ItemFooter'>
                 <Link to={`/detail/${id}`} className='Option'>Ver detalle</Link>

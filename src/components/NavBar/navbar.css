@@ -14,6 +14,15 @@
     border-radius: 15%;
 }
  */
+ .marca{
+  padding-top: 5px;
+  cursor: pointer;
+  color: #000;
+ }
+ .marca:hover{
+  color: #777;
+  text-shadow: #ccc 1px 1px 1px;
+ }
  a:hover{
     color: #000 !important;
  }
@@ -23,7 +32,8 @@
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    background: #eee;
+    background: #0cdcf3;
+    /* #55c */
   }
   
   .Categories {

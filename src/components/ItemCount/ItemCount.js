@@ -16,6 +16,11 @@ const ItemCount = ({stock = 0, initial = 1, onAdd})=> {
             setQuantity(prev => prev - 1)
         }     
     }
+    const reset = () => {
+        if(quantity > 1) {
+            setQuantity(0)
+        }     
+    }
  
     return(
         <div className='Counter'>          
@@ -24,6 +29,7 @@ const ItemCount = ({stock = 0, initial = 1, onAdd})=> {
                  <button className="Button btn btn-danger" onClick={decrement}>-</button>
                  <h4 className='Number'>{quantity}</h4>
                  <button className="Button btn btn-success" onClick={increment}>+</button>
+                 <button className="Button btn btn-success" onClick={reset}>reset</button>
              </div>
              <div>
                  <button className="Button" onClick={() => onAdd(quantity)}>Agregar al carrito</button>
